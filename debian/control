@@ -1,0 +1,12 @@
+Source: ros-turbulent-rosidl-default-generators
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-rosidl-default-generators
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ament-cmake-core, ros-turbulent-rosidl-cmake, ros-turbulent-rosidl-generator-c, ros-turbulent-rosidl-generator-cpp, ros-turbulent-rosidl-generator-py, ros-turbulent-rosidl-typesupport-c, ros-turbulent-rosidl-typesupport-cpp, ros-turbulent-rosidl-typesupport-introspection-c, ros-turbulent-rosidl-typesupport-introspection-cpp, ros-turbulent-ros-workspace
+Description: A configuration package defining the default ROS interface generators.
