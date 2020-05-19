@@ -1,1 +1,1 @@
-{"trim": "", "base": "b9f42b2", "trimbase": "", "parent": "debian/foxy/rosidl_default_generators", "previous": "99bca83"}
+{"base": "1da2679", "parent": "debian/testing/rosidl_default_generators", "previous": "e39be24", "trim": "", "trimbase": ""}
